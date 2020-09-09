@@ -19,7 +19,7 @@ class ProductControllerTests {
 
     @Autowired
     private ProductController productController;
-    static List<Product> newProducts = new ArrayList<>();
+    private static final List<Product> newProducts = new ArrayList<>();
 
     @BeforeAll
     static void init() {

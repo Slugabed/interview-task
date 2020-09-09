@@ -1,7 +1,5 @@
 package interview.test.task.contoller;
 
-import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
-
 import interview.test.task.model.assembler.ProductResourceAssembler;
 import interview.test.task.repository.ProductRepository;
 import interview.test.task.model.Product;
